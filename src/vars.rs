@@ -5,5 +5,11 @@
 pub fn run(){
      let name = "Kausa";
 
-     println!("my name is {}", name);
+     let mut age = 24;
+
+     println!("My name is {} and I am {}", name, age);
+
+     age = 25;
+
+     println!("My name is {} and I am {}", name, age);
 }
